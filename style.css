@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body{
+    /* overflow: hidden; */
+    font-family: 'Lato', sans-serif;
+    /* color: #505962; */
+    color: #000;
+    height: 100px;       /* Just for the demo          */
+    overflow-y: auto;    /* Trigger vertical scroll    */
+    overflow-x: hidden;
+}
+/* Navigation */
+
+.navbar{
+    text-transform: initial;
+    font-weight: 700;
+    font-size: .9rem;
+    letter-spacing: .1rem;
+    
+    padding-bottom: 2%;
+    /* background-color: rgba(0, 0, 0, 0.4)!important; */
+    box-shadow: 1px 13px 143px rgba(0, 0, 0, 0.10);
+}
+
+a.navbar-brand {
+    color:#F2C44C !important;
+}
+.navbar-nav li{
+    padding-right: .7rem;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: gray;
+    padding-top: .8rem;
+    margin-right: 1rem;
+}
+.navbar-dark .navbar-nav .nav-link.active, 
+    .navbar-dark .navbar-nav .nav-link:hover{
+        color: #1ebba3;
+}
+
+.landing {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: table;
+    z-index: -1;
+  }
+
+.home-wrap {
+    clip: rect(0, auto, auto, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .home-inner {
+    position: fixed;
+    display: table;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    will-change: transform;
+  }
+
+  .home-inner{
+      background-image: url(img/rectang.jpg);  
+      padding-top: 110px;
+      padding-bottom:110px;    
+
+  }
+  .caption{
+      width: 100%;
+      max-width:100%;
+      position: absolute;
+      top: 32%;
+      height: 112px;      
+      z-index: 1;
+      color: #fff;
+      text-transform: uppercase;      
+  }
+  
+  .caption h1{
+    font-family: lato;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 3.8rem;
+    line-height: 51px;
+    padding-top: .9rem;
+    /* display: flex; */
+    align-items: center;
+    letter-spacing: 0.02em;
+    text-transform: initial;
+  }
+  .caption h2{
+      padding-top: 7%;
+  }
+
+.caption h3{
+    padding-top: 1%;
+    font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 51px;
+    text-shadow: .1rem .1rem .8rem black;
+    padding-bottom:2rem;
+    display: block;
+    line-height: 45px;
+}
+
+a.btn.btn-warnm.btn-md {
+    background:#FF971E;
+    border-radius: 0;
+    color: #fff;
+    /* font-family: Montserrat; */
+font-style: normal;
+font-weight: bold;
+font-size: 19px;
+animation: updown 2s ease infinite;
+}
+
+@keyframes updown {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+		transform: translatey(-20px);
+	}
+	120% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+}
+
+
+.container.clol {    
+    padding-top: 7%;
+    background-image: url(img/Rectangle\ 50.jpg);  
+}
+h4.text-right.pust {
+    margin-top: -8%;
+    margin-right: 73px;
+}
+.col-md-6.mover {
+    padding-left: 8%;
+    margin-top: -15px;
+}
+h2.cent {
+    padding-top: 10%;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+hr.line {
+    width: 188px;
+    border: 1px solid #FF971E;
+    margin-top: 11px;
+}
+
+/* img.adjust {
+    padding-top: 5rem;
+} */
+
+p.arrange {
+    padding-top: 10rem;
+    text-align: justify;
+}
+.bott {
+    padding-bottom: 5%;
+}
+img.shri {
+    width: 100%;
+}
+p.arranger.text-center {
+    padding-top: 4%;
+}
+.row.spac {
+    padding-bottom: 10%;
+}
+
+a.btn.btn-warnme.btn-md {
+    background:#FF971E;
+    border-radius: 0;
+    color: #000;
+    /* font-family: Montserrat; */
+font-style: normal;
+font-weight: bold;
+font-size: 19px;
+margin-bottom: 10%;
+animation: updown 2s ease infinite;
+}
+
+div#gallery {
+    background: #E5E5E5;
+}
+
+h2.cente {
+    padding-top: 5%;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+li#sup {
+    background-color: #FF971E;
+}
+.botto {
+    padding-bottom: 20%;
+}
+.carousel.spal.col-md-3 {
+    padding-left: 0%;
+}
+img.whi {
+    width: 90%;
+    padding-top: 10%;
+}
+div#demo {
+    padding-left: 39px;
+}
+
+.card.mb-2 {
+    box-shadow: 1px 13px 143px rgba(0, 0, 0, 0.1);
+    border: 0;
+    margin-top: 33.7%;
+    padding-bottom: 89%;
+    height: 66%;
+    border-radius: 11px;
+}
+
+img.card-img-top {
+    margin-top: -22%;
+    width: 76%;
+    margin-bottom: 19%;
+    margin-left: 11%;
+    
+    box-shadow: 1px 5px 19px rgba(0, 0, 0, 0.13);    
+}
+.carousel-indicators li {
+    width: 9px;
+    height: 10px;
+    border-radius: 50%;
+}
+div#Testimonials {
+    background: url(img/Rectangle\ 19.png);
+}
+
+div#footer {
+    background: #000000;
+}
+.container.text-def {
+    color: #fff;
+}
+
+h2.sparl {
+    padding-bottom: 10%;
+}
+p.plat {
+    margin-bottom: 6%;
+    font-size: 20px;
+}
+.btn-outline-facebook {
+    border: 1px solid #ffffff;
+    color: #3b579d
+}
+
+.btn-outline-facebook:hover {
+    background: #3b579d;
+    color: #ffffff
+}
+
+
+.row.marge {
+    
+    padding-left: 0;
+    padding-right: 63%;
+    margin-left: -9%;
+    padding-top: 10%;
+    padding-bottom: 20%;
+}
+
+.freestyle {
+    
+    padding-top: 5%;
+}
+input.form-control.form-colo {
+    background: #E5E5E5;
+}
+textarea.form-control.form-colo {
+    background: #E5E5E5;
+}
+button.btn.btn-danger.btn-md.bro {
+    background: #F2C44C;
+    width: 63%;
+    border-radius: 0;
+    color: #000;
+    font-weight: bold;
+    border: 2px solid #F2C44C;
+}
+
+.btn:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
+
+
+
+.btn-animated {
+    animation: moveInBottom 2s ease-out;
+    animation-fill-mode: backwards;
+}
+
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.btn::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+}
+
+.btn-white::after {
+    background-color: #F2C44C;
+}
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
